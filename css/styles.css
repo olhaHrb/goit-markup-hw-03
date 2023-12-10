@@ -1,21 +1,52 @@
+
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     }
+
+/* Reset styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 a {
+    color: currentColor;
     text-decoration: none;
     }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     }
+
+
+/* Common styles */
+
+.container {
+    width: 1154px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, p, ul {
+    font-family: Roboto, sans-serif;
+}
 
 h1 {
     color: #FFFFFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
@@ -25,7 +56,6 @@ h1 {
 h2 {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -35,7 +65,6 @@ h2 {
 
 h3 {
     color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -44,7 +73,6 @@ h3 {
 
 p {
     color: #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -67,7 +95,6 @@ p {
 
 .header-link {
     color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -85,7 +112,6 @@ p {
 
 .address-link {
     color: #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -104,7 +130,6 @@ p {
 .hero-title {
     color: #FFFFFF;
     text-align: center;
-    font-family: Roboto, sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -133,7 +158,6 @@ p {
 
 .preference-subtitle {
     color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -142,7 +166,6 @@ p {
 
 .preference-desc {
     color: #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -156,7 +179,6 @@ p {
 .team-title {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -170,7 +192,6 @@ p {
 
 .team-subtitle {
     color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -179,7 +200,6 @@ p {
 
 .team-desc {
     color: #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -189,7 +209,6 @@ p {
 .portfolio-title {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -199,7 +218,6 @@ p {
 
 .portfolio-subtitle {
     color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -208,7 +226,6 @@ p {
 
 .portfolio-desc {
     color: #434455;
-    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -231,7 +248,6 @@ p {
 
 .footer-slogan {
     color: #F4F4FD;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
