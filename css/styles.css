@@ -79,6 +79,17 @@ p {
     letter-spacing: 0.32px;
 }
 
+.header-container {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav {
+    display: flex;
+    margin-right: 332px;
+}
+
 .header-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -87,10 +98,16 @@ p {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo-accent {
     color: #2E2F42;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-link {
@@ -108,6 +125,11 @@ p {
 
 .address {
     font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -162,7 +184,12 @@ p {
     background-color: #2E2F42;
 }
 
-.preference-subtitle {
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.studio-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -170,15 +197,15 @@ p {
     letter-spacing: 0.4px;
 }
 
-.preference-desc {
+.studio-desc {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400;studio
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.team-section {
+.team {
     background-color: #F4F4FD;
 }
 
