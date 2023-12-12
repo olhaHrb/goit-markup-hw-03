@@ -81,13 +81,13 @@ p {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
-    margin-right: 332px;
+    margin-right: auto;
+    align-items: center;
 }
 
 .header-logo {
@@ -108,14 +108,18 @@ p {
 .header-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .header-link {
+    display: block;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link:hover,
@@ -130,6 +134,7 @@ p {
 .address-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .address-link {
