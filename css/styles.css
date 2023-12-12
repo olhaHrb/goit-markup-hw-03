@@ -201,12 +201,23 @@ p {
     padding-bottom: 60px;
 }
 
+.studio-list {
+    display: flex;
+    gap: 24px;
+}
+
+.studio-item {
+    display: block;
+    width: 264px;
+}
+
 .studio-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .studio-desc {
